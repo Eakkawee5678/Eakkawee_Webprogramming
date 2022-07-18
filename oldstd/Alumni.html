@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มลงทะเบียน</title>
+    <style>
+        textarea {
+            resize: none;
+        }
+        .mb-5{
+            margin:10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>แบบฟอร์มลงทะเบียน</h2>
+
+    <div class="mb-5">
+        รหัสนักศึกษา
+        <input type="text" size="20" placeholder="กรอกรหัสประจำตัวนักศึกษา" required>
+    </div>
+    <div class="mb-5">
+        ปีการศึกษาเข้าศึกษา
+        <input type="text" size="20" placeholder="กรอกเป็นปี พ.ศ. " required>
+    </div>
+    <div>
+        ชื่อหลักสูตร
+        <input type="radio" id="it" name="major" value="IT">
+    <label for="male">เทคโนโลยีสารสนเทศ</label>
+    <input type="radio" id="female" name="major" value="IS">
+    <label for="female">ระบบสารสนเทศ</label>
+    </div>
+    
+
+    <p>ชื่อ - นามสกุล</p>
+    <div>
+        <select>
+            <option value="">คำนำหน้าชื่อ</option>
+            <option value="นาย">นาย</option>
+            <option value="นางสาว">นางสาว</option>
+            <option value="นาง">นาง</option>
+        </select>
+
+        <input type="text" size="20" placeholder="ชื่อจริง" required>
+        <input type="text" size="20" placeholder="นามสกุล" required>
+    </div>
+
+    <p>เพศ</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">ชาย</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">หญิง</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">อื่นๆ</label>
+    <div class="mb-5">
+        เบอรโทรศัพท์
+        <input type="tel" name="Tel" size="10" maxlength="10" placeholder="เบอรโทร 10 หลัก" required>
+        Email
+        <input type="email" placeholder="กรอกอีเมล" required>
+    </div>
+    <div>
+    <p>ที่อยู่</p>
+    <textarea name="Address" id="" cols="60" rows="3"></textarea>
+    </div>
+    <div>
+        <p>อาชีพปัจจุบัน</p>
+        <input type="text" name="" id="">
+        ประเภทงาน
+        <select>
+            <option value="">--ประเภทของงาน--</option>
+            <option value="web developer">Web Developer</option>
+            <option value="system analyst">system analyst</option>
+            <option value="graphic design">Graphic design</option>
+            <option value="graphic design">Digital Marketing</option>
+            <option value="other">อื่นๆ</option>
+        </select>
+    </div>
+    <div>
+        <p>ที่อยู่ที่ทำงาน</p>
+        <textarea name="Address" id="" cols="60" rows="3"></textarea>
+    </div>
+    <div>
+        <p>อัพโหลดไฟล์รูปภาพ 1 รูป</p>
+        <input type="file">
+        <input  type="submit" value="บันทึกแบบฟอร์ม">
+    </div>
+    
+
+
+
+
+
+
+
+</body>
+
+</html>
