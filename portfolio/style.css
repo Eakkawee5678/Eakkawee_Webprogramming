@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Pen+Script&family=Quicksand:wght@400;500&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25.00px;
+}
+
+.banner-img{
+    width: 70%;
+    height: 500px;
+}
+.img-project{
+    width: 80px;
+    height: 80px;
+}
