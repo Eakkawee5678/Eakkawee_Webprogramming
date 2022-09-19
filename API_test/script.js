@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded",() =>{
             document.querySelector("#euro").value = `${convert().toFixed(2)}`;
         })
           .catch(error => console.log('error', error));
+          return false; 
     };
 });
 
